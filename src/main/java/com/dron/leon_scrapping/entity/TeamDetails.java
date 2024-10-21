@@ -11,6 +11,6 @@ import java.util.List;
 @Builder
 public class TeamDetails {
     private String teamName;
-    private String logoUrl; // or whatever type you're using
+    private String logoUrl;
     private List<Coefficient> coefficients;
 }

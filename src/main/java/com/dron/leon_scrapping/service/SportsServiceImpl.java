@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class SportsServiceImpl implements SportsService{
+public class SportsServiceImpl implements SportsService {
     private final RestTemplate restTemplate;
     private final SportMatchPrinter sportMatchPrinter;
 

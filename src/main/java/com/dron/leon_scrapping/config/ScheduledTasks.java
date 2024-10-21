@@ -10,11 +10,10 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @EnableScheduling
 public class ScheduledTasks {
-
     private final SportsServiceImpl sportsServiceImpl;
 
     @Scheduled(fixedRate = 3_000_000)
-    public void printTopLeaguesWithDetails(){
+    public void printTopLeaguesWithDetails() {
         this.sportsServiceImpl.printTopLeaguesWithDetails();
     }
 
